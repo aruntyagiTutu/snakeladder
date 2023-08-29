@@ -1,3 +1,5 @@
+namespace SnakeLadder
+{
 using System;
 public class Dice
 {
@@ -6,4 +8,5 @@ public class Dice
          Random r = new Random();
          return r.Next(1, 6);
     }
+}
 }
